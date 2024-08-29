@@ -1,0 +1,123 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Estilização do cabeçalho e menu */
+        .header {
+            background-color: white;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header img {
+            width: 100px;
+        }
+
+        .menu {
+            background-color: #DC143C;
+            overflow: hidden;
+        }
+
+        .menu a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .menu a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Seção de introdução */
+        .intro {
+            padding: 50px;
+            background-color: white;
+            text-align: center;
+        }
+
+        /* Estilização dos cards */
+        .cards {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 30%;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .card h3 {
+            color: #DC143C;
+        }
+
+        .card p {
+            margin: 15px 0;
+        }
+
+        .card button {
+            background-color: #DC143C;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .card button:hover {
+            background-color: #DC143C;
+        }
+
+        /* Seção de vídeo */
+        .video-section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        /* Seção de contato */
+        .contact {
+            background-color: #f9f9f9;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .contact a {
+            color: #DC143C;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilização do rodapé */
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        .footer a {
+            color: #DC143C;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
